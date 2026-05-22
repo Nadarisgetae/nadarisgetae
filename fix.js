@@ -1,8 +1,9 @@
 const fs = require('fs');
-let workflow = fs.readFileSync('app/workflow/page.tsx', 'utf8');
-workflow = workflow.replace(
-  `color: '#000', backgroundColor: '#FF0055', padding: '18px 40px', borderRadius: '2px', display: 'inline-block', color: '#fff'`,
-  `color: '#fff', backgroundColor: '#FF0055', padding: '18px 40px', borderRadius: '2px', display: 'inline-block'`
+let book = fs.readFileSync('app/book/page.tsx', 'utf8');
+// Remove the duplicate Link import
+book = book.replace(
+  `import { useState } from 'react';\nimport Link from 'next/link';\nimport Link from 'next/link';`,
+  `import { useState } from 'react';\nimport Link from 'next/link';`
 );
-fs.writeFileSync('app/workflow/page.tsx', workflow);
-console.log('Workflow fixed!');
+fs.writeFileSync('app/book/page.tsx', book);
+console.log('Duplicate import removed!');
