@@ -1,5 +1,6 @@
 'use client';
 import { useState } from 'react';
+import Link from 'next/link';
 
 export default function BookPage() {
   const [form, setForm] = useState({ name: '', email: '', company: '', service: '', budget: '', description: '' });
@@ -42,7 +43,7 @@ export default function BookPage() {
       <p style={{ fontFamily: 'DM Sans, sans-serif', fontSize: '16px', color: '#666', maxWidth: '440px', lineHeight: 1.7, marginBottom: '48px' }}>
         Your inquiry has been submitted. I will review it and respond within 24 to 48 hours. Check your email for a confirmation.
       </p>
-      <a href="/" style={{ fontFamily: 'Space Mono, monospace', fontSize: '11px', fontWeight: 700, letterSpacing: '0.1em', textTransform: 'uppercase', textDecoration: 'none', color: '#000', backgroundColor: '#FFD700', padding: '16px 36px', borderRadius: '2px', display: 'inline-block' }}>Back to Home</a>
+      <Link href="/" style={{ fontFamily: 'Space Mono, monospace', fontSize: '11px', fontWeight: 700, letterSpacing: '0.1em', textTransform: 'uppercase', textDecoration: 'none', color: '#000', backgroundColor: '#FFD700', padding: '16px 36px', borderRadius: '2px', display: 'inline-block' }}>Back to Home</Link>
     </div>
   );
 

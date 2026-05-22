@@ -96,7 +96,7 @@ export default function HomePage() {
         <div style={{ position: 'absolute', inset: 0, background: 'radial-gradient(ellipse at center, rgba(255,215,0,0.04) 0%, transparent 60%)', pointerEvents: 'none' }} />
         <p style={{ fontFamily: 'Space Mono, monospace', fontSize: '11px', letterSpacing: '0.25em', color: '#FFD700', textTransform: 'uppercase', marginBottom: '32px' }}>Ready to build?</p>
         <h2 style={{ fontFamily: 'Bebas Neue, sans-serif', fontSize: 'clamp(64px, 12vw, 160px)', lineHeight: 0.88, color: '#fff', marginBottom: '60px' }}>
-          Let's make<br />something<br /><span style={{ WebkitTextStroke: '1px #FFD700', color: 'transparent' }}>great.</span>
+          Let&apos;s make<br />something<br /><span style={{ WebkitTextStroke: '1px #FFD700', color: 'transparent' }}>great.</span>
         </h2>
         <Link href="/book" style={{ fontFamily: 'Space Mono, monospace', fontSize: '12px', fontWeight: 700, letterSpacing: '0.12em', textTransform: 'uppercase', textDecoration: 'none', color: '#000', backgroundColor: '#FFD700', padding: '20px 48px', borderRadius: '2px', display: 'inline-block' }}>
           Book a Service
