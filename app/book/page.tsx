@@ -1,6 +1,7 @@
 'use client';
 import { useState } from 'react';
 import Link from 'next/link';
+import Link from 'next/link';
 
 export default function BookPage() {
   const [form, setForm] = useState({ name: '', email: '', company: '', service: '', budget: '', description: '' });

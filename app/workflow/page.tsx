@@ -36,7 +36,7 @@ export default function WorkflowPage() {
           <h2 style={{ fontFamily: 'Bebas Neue, sans-serif', fontSize: 'clamp(40px, 6vw, 80px)', color: '#fff', lineHeight: 0.9 }}>
             Ready to<br /><span style={{ color: '#FFD700' }}>start?</span>
           </h2>
-          <a href="/book" style={{ fontFamily: 'Space Mono, monospace', fontSize: '11px', fontWeight: 700, letterSpacing: '0.1em', textTransform: 'uppercase', textDecoration: 'none', color: '#000', backgroundColor: '#FF0055', padding: '18px 40px', borderRadius: '2px', display: 'inline-block', color: '#fff' }}>
+          <a href="/book" style={{ fontFamily: 'Space Mono, monospace', fontSize: '11px', fontWeight: 700, letterSpacing: '0.1em', textTransform: 'uppercase', textDecoration: 'none', color: '#fff', backgroundColor: '#FF0055', padding: '18px 40px', borderRadius: '2px', display: 'inline-block' }}>
             Book a Service
           </a>
         </div>
